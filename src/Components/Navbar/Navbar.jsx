@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
-import Arrow_icon from '../../assets/Arrow_icon.png'
+import Arrow_icon from '../../assets/arrow_icon.png'
 import { coinContext } from '../../Context/CoinContext'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
