@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import './Linechart.css'
 import Chart from 'react-google-charts'
 const LineChart = ({historicaldata}) => {
     const [data,setdata] = useState([["Date","prices"]])
